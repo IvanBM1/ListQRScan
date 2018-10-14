@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Alumno" syncable="YES">
+        <attribute name="asistencias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lista" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="matricula" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Listas" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Alumno" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Listas" positionX="-54" positionY="18" width="128" height="60"/>
+    </elements>
+</model>
